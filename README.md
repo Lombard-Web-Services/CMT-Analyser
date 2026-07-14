@@ -1,0 +1,1 @@
+This script analyzes MyHeritage data against ClinVar VCF files to identify pathogenic variants related to Charcot-Marie-Tooth disease. It includes data loading, gene indexing, allele comparison, and results reporting.
