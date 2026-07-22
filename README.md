@@ -57,7 +57,7 @@ pip install pandas
 ### Script v1 : Analyse simplifiee
 
 ```bash
-python analyse_cmt_vcf.py
+python test.py
 ```
 
 Le script attend les fichiers `MH.csv` et `clinvar.vcf.gz` dans le repertoire courant.
@@ -65,7 +65,7 @@ Le script attend les fichiers `MH.csv` et `clinvar.vcf.gz` dans le repertoire co
 ### Script v2 : Analyse avancee avec scoring
 
 ```bash
-python cmt_vcf_analyzer.py <myheritage.csv> <clinvar.vcf.gz>
+python test2.py <myheritage.csv> <clinvar.vcf.gz>
 ```
 
 Exemple :
@@ -80,8 +80,8 @@ python cmt_vcf_analyzer.py donnees_MH.csv clinvar.vcf.gz
 
 | Fichier | Description |
 |---------|-------------|
-| `analyse_cmt_vcf.py` | Script principal v1, analyse par position et RSID avec verification de brin |
-| `cmt_vcf_analyzer.py` | Script v2, analyse avancee avec systeme de scoring multi-criteres |
+| `test.py` | Script principal v1, analyse par position et RSID avec verification de brin |
+| `test2.py` | Script v2, analyse avancee avec systeme de scoring multi-criteres |
 | `MH.csv` | Fichier de donnees MyHeritage (fourni par l'utilisateur) |
 | `clinvar.vcf.gz` | Base ClinVar compressee (a telecharger separement) |
 | `resultats_cmt_vrais_positifs.csv` | Export des variants confirmes (genere) |
